@@ -1,0 +1,45 @@
+.d1 {
+    background-color:lightcoral;
+    width: 1350px;
+    height: 200px;
+    border: 2px solid;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+}
+.d2 {
+    background-color: lightseagreen;
+    width: 1350px;
+    height: 200px;
+    border: 2px solid;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.d3 {
+    background-color: lightgreen;
+    width: 1350px;
+    height: 200px;
+    border: 2px solid;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+}
+.d4 {
+    background-color: rgba(230, 98, 131, 0.5);
+    width: 1350px;
+    height: 200px;
+    border: 2px solid;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+}
+#div1 {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    
+
+}
