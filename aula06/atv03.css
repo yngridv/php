@@ -1,0 +1,51 @@
+.box{
+    background-color:peru;
+    height: 550px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-areas: "linha1 linha1 linha1"
+                         "linha2 coluna1 coluna2";
+                    
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 100px 1fr 300px;              
+}
+
+.linha1{
+    background-color: rgb(223, 119, 29);
+    grid-area: linha1; 
+}
+.texto p {
+    margin-left: 500px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    m
+
+
+}
+
+.img > img{
+    background-color: bisque;
+    height: 100px;
+    width: 190px;
+    margin-top: 15px;
+}
+
+.linha2{
+    background-color:peachpuff;
+    grid-area: linha2;
+}
+.coluna1{
+    background-color:palegreen;
+    grid-area: coluna1;
+}
+.coluna2{
+    background-color:peachpuff;
+    grid-area: coluna2;
+}
+
+
+body {
+    background-color:peru;
+   
+  }

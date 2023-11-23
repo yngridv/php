@@ -1,0 +1,32 @@
+.box{
+    background-color: pink;
+    height: 550px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-areas: "linha1 linha1"
+                         "linha2 colunas";
+                    
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 150px 1fr;              
+}
+
+.linha1{
+    background-color: peachpuff;
+    grid-area: linha1;
+   
+}
+
+.linha2{
+    background-color: palevioletred;
+    grid-area: linha2;
+}
+.colunas{
+    background-color: purple;
+    grid-area: colunas;
+}
+
+
+body {
+    background-color:powderblue;
+   
+  }
