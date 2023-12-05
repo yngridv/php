@@ -1,0 +1,41 @@
+.box{
+    height: 550px;
+    border: 3px solid rgb(72, 72, 228);
+    display: grid;
+    grid-template-areas: "Header Header Header"
+                         "MenuR Main Right"
+                         "MenuR Footer Footer";
+    gap: 10px;
+    grid-template-rows: 100px 1fr 150px;
+    grid-template-columns: 100px 1fr 300px;    
+    background-color: white;
+    padding: 10px;
+
+}
+
+.Header{
+    background-color: palegreen;
+    grid-area: Header;
+   
+}
+
+.MenuR{
+    background-color: peachpuff;
+    grid-area: MenuR; 
+
+}
+
+.Main{ 
+    background-color: rgb(207, 42, 207);
+    grid-area: Main;
+}
+
+.Footer{
+    background-color: powderblue;
+    grid-area: Footer;
+}
+
+.Right{
+    background-color: rgb(229, 198, 147);
+    grid-area: Right;
+}
