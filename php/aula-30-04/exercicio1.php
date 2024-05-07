@@ -1,40 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2> array lista ordenada </h2>
+
+     <style>
+p {
+    background-color: pink;
+}
+</style>
+
 <?php
+$aluno = array( "nome" => "yuri ", 
+"idade" => 9, 
+"end" => "rua X", 
+"cidade"=> "Guanambi",
+"estado"=> "BA", 
+"cpf"=> "000.000.000-22");
 
-$aluno1["nome"] = "Yngrid";
-$aluno1["idade"] = "17";
-$aluno1["endereço"] = "Rua x";
-$aluno1["cidade"] = "Guanambi";
-$aluno1["estado"] = "Bahia";
-$aluno1["cpf"] = "000.000.000-20";
+echo "<p> Aluno 1 </p>" ;
+echo $aluno["nome"] ."<br>";
+echo $aluno["idade"] ."<br>";
+echo $aluno["end"] . "<br>";
+echo $aluno["cidade"] . "<br>";
+echo $aluno["estado"] . "<br>";
+echo $aluno["cpf"] . "<br>";
 
-echo "aluno1: <br>";
-foreach ($aluno1 as $x) {
-    echo  key($aluno1) . ": $x  <br>";
-    next($aluno1);
-}
+echo "<br>";
 
-$aluno2["nome"] = "raifran";
-$aluno2["idade"] = "17";
-$aluno2["endereço"] = "Rua e";
-$aluno2["cidade"] = "Guanambi";
-$aluno2["estado"] = "Bahia";
-$aluno2["cpf"] = "000.000.000-55";
+$aluno1 = array( "nome" => "Yngrid", 
+"idade" => 17, 
+"end" => "rua A", 
+"cidade"=> "Guanambi",
+"estado"=> "Bahia", 
+"cpf"=> "000.000.000-55");
 
-echo "<br>aluno 2: <br>";
-foreach ($aluno2 as $x) {
-    echo  key($aluno2) . ": $x  <br>";
-    next($aluno2);
-}
+echo "<p> Aluno 2 </p>" ;
 
-$professor ["nome"] = 'fabio';
-$professor ["idade"] = '30';
-$professor ["end"] = 'rua c';
-$professor ["cidade"] = 'guanambi';
-$professor ["estado"] = 'bahia';
-$professor ["cpf"] = '000.000.000-22';
+echo $aluno1["nome"] ."<br>";
+echo $aluno1["idade"] ."<br>";
+echo $aluno1["end"] . "<br>";
+echo $aluno1["cidade"] . "<br>";
+echo $aluno1["estado"] . "<br>";
+echo $aluno1["cpf"] . "<br>";
 
-echo "<br>professor: <br>";
-foreach ($professor as $x) {
-    echo  key($professor) . ": $x  <br>";
-    next($professor);
-}
+echo "<br>";
+
+
+$aluno2 = array( "nome" => "Raifran", 
+"idade" => 17, 
+"end" => "rua B", 
+"cidade"=> "Guanambi",
+"estado"=> "Bahia", 
+"cpf"=> "000.000.000-88");
+
+echo "<p> Aluno 3 </p>" ;
+
+echo $aluno2["nome"] ."<br>";
+echo $aluno2["idade"] ."<br>";
+echo $aluno2["end"] . "<br>";
+echo $aluno2["cidade"] . "<br>";
+echo $aluno2["estado"] . "<br>";
+echo $aluno2["cpf"] . "<br>";
+
+echo "<br>";
+
+
+$professor = array( "nome" => "Fabio", 
+"idade" => 40, 
+"end" => "rua C", 
+"cidade"=> "Guanambi",
+"estado"=> "Bahia", 
+"cpf"=> "000.000.000-10");
+
+echo "<p> Professor </p>" ;
+
+echo $professor["nome"] ."<br>";
+echo $professor["idade"] ."<br>";
+echo $professor["end"] . "<br>";
+echo $professor["cidade"] . "<br>";
+echo $professor["estado"] . "<br>";
+echo $professor["cpf"] . "<br>";
+
+?>
+
+</body>
+</html>
+
