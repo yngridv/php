@@ -1,0 +1,18 @@
+body{
+    background-color: plum;
+}
+
+h1 {
+    background-color: rgb(196, 13, 224);
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(220, 45, 226);
+}
+
+pre {
+    background-color: rgb(126, 11, 126);
+    font-size: 18px;
+
+}
