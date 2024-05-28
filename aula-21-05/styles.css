@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(184, 193, 243);
+}
+
+h1 {
+    background-color: rgb(236, 80, 140);
+    text-align: center;
+    color: rgb(239, 230, 248);
+}
+
+h2 {
+    background-color: rgb(101, 92, 233);
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #e7c4c4;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: rgb(241, 160, 194)}
+  
+  #customers tr:hover {background-color: #faf3f3;}
+  
+  #customers th {
+    text-align: left;
+    background-color: rgb(101, 92, 233);
+    color: white;
+  }
